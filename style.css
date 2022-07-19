@@ -1,0 +1,105 @@
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #1d1d1fe0;
+  height: 45px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 40px;
+}
+header li {
+  margin: 0 20px;
+}
+header a {
+  text-decoration: none;
+  color: #f5f5f7d8;
+  font-weight: 200;
+  font-size: 12px;
+}
+header a:hover {
+  color: #f5f5f7;
+}
+nav {
+  height: 45px;
+  background-color: #1d1d1f09;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav p {
+  font-size: 12px;
+  margin: auto 0;
+  font-weight: 600;
+  color: #1d1d1fb7;
+}
+nav p.colorFont {
+  color: #0066ccbe;
+  font-weight: bold;
+}
+nav p.colorFont:hover {
+  text-decoration: underline;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "c1 c1"
+    "c2 c2"
+    "c3 c3"
+    "c4 c5"
+    "c6 c7"
+    "c8 c9";
+  grid-gap: 10px 10px;
+  margin-top: 10px;
+}
+main div.c1 {
+  grid-area: c1;
+  background-color: #0066cc07;
+  height: 700px;
+}
+main div.c2 {
+  grid-area: c2;
+  background-color: #0066cc07;
+  height: 700px;
+}
+main div.c3 {
+  grid-area: c3;
+  background-color: #0066cc07;
+  height: 700px;
+}
+main div.c4 {
+  grid-area: c4;
+  background-color: #0066cc07;
+  height: 600px;
+}
+main div.c5 {
+  grid-area: c5;
+  background-color: #1d1d1f;
+  height: 600px;
+}
+main div.c6 {
+  grid-area: c6;
+  background-color: #1d1d1f;
+  height: 600px;
+}
+main div.c7 {
+  grid-area: c7;
+  background-color: #0066cc07;
+  height: 600px;
+}
+main div.c8 {
+  grid-area: c8;
+  background-color: #0066cc07;
+  height: 600px;
+}
+main div.c9 {
+  grid-area: c9;
+  background-color: #1d1d1f;
+  height: 600px;
+}
